@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faremers Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="images/logo3.jpg" class="Logo" alt=""height='100'width='100'></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="shop.html"><i class="fa-solid fa-shop"></i>Shop</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-blog"></i>Blog</a></li>
+                <li><a href="About.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+                <li><a class="active" href="basket.html"><i class="fa-solid fa-basket-shopping"></i>Basket</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="page-header" class="basket-header">
+    </section>
+
+    <section id="basket" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Product</td>
+                    <td>Product Name</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Sub total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/Apple2.jpg" alt=""></td>
+                    <td>Apple</td>
+                    <td>Rs130/kg</td>
+                    <td><input type= "number" value="1"></td>
+                    <td>Rs130</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/Gmirchi.jpg" alt=""></td>
+                    <td>Green Chillies</td>
+                    <td>Rs80/kg</td>
+                    <td><input type= "number" value="1"></td>
+                    <td>Rs80</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/cabbage.jpg" alt=""></td>
+                    <td>Cabbage</td>
+                    <td>Rs50/kg</td>
+                    <td><input type= "number" value="1"></td>
+                    <td>Rs50</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/sesameseeds.jpg" alt=""></td>
+                    <td>Black Sesame Seeds</td>
+                    <td>Rs115/kg</td>
+                    <td><input type= "number" value="1"></td>
+                    <td>Rs115</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="basket-add"class="section-p1">
+        <div id="subtotal">
+            <h3>Basket Totals</h3>
+            <table>
+                <tr>
+                    <td>Basket Subtotal</td>
+                    <td>Rs345</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs345</strong></td>
+                </tr>
+            </table>
+            <button class="normal">proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo"src="images/logo3.jpg" alt="" height="150" width="150">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Near Mallareddy college,Maisammaguda,Hyderabad</p>
+            <p><strong>Phone:</strong> +91 22 1234 5678</p>
+            <p><strong>Hours:</strong> 06:00AM to 07:00PM Mon to Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col" install>
+            <h4>Payment Options</h4>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay.jpg" alt="" height="100" width="350">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

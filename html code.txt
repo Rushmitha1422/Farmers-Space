@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="logo3.jpg" class="Logo" alt=""height='100'width='100'></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="shop.html"><i class="fa-solid fa-shop"></i>Shop</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-blog"></i>Blog</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i>Basket</a></li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="hero">
+    <h4>Welcome to Farmers Space</h4>
+    <h2>Taste the originals</h2>
+    <h1>Of Mother Earth</h1>
+    <p>Let's become Healthier and make our Farmers Wealthier</p>
+    <button>Shop Now</button>
+    </section>
+
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img8.jpg" alt="" height="130" width="180">
+            <h6>Vegetables</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img9.jpg" alt="" height="130" width="180">
+            <h6>Fruits</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img10.jpg" alt="" height="130" width="180">
+            <h6>Dairy</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img11.jpg" alt="" height="130" width="180">
+            <h6>spices</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img12.jpg" alt="" height="130" width="180">
+            <h6>Millets</h6>
+        </div>
+        <div class="fe-box">
+            <img src="seeds.jpg" alt="" height="130" width="180">
+            <h6>Seeds</h6>
+        </div>
+        <div class="fe-box">
+            <img src="nuts.jpg" alt="" height="130" width="180">
+            <h6>Nuts</h6>
+        </div>
+        <div class="fe-box">
+            <img src="leaves.jpg" alt="" height="130" width="180">
+            <h6>Leafy Vegetables</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <h4>Summer Specials!!!</h4>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img13.jpg" alt="" height="200" width="200">
+                <div class="des">
+                    <h5>Chia seeds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs180/350gms</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img14.jpg" alt="">
+                <div class="des">
+                    <h5>Coconut Water</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs50 for one</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img16.jpg" alt="" height="200">
+                <div class="des">
+                    <h5>Ice Apples</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs80/250 gms</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img17.jpg" alt="">
+                <div class="des">
+                    <h5>Mangoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs100/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Free Delivery on first 3 orders</h4>
+        <h2>Up to <span>70% off</span> on First order</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Our All time Varieties!!!</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Apple.jpg" alt="" height="200">
+                <div class="des">
+                    <h5>kashmirApple</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs70/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="dragon.jpg" alt="" height="230">
+                <div class="des">
+                    <h5>Dragon Fruit</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs280/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="sesameseeds.jpg" alt="" height="200">
+                <div class="des">
+                    <h5>Black Sesame seeds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs115/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="mirchi.webp" alt="">
+                <div class="des">
+                    <h5>Organic Mirchi powder</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs100/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="turmeric.jpg" alt="">
+                <div class="des">
+                    <h5>Turmeric powder</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs150/500gms</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Honey.jpg" alt="">
+                <div class="des">
+                    <h5>Raw Honey</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs600/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="strawberry.jpg" alt="">
+                <div class="des">
+                    <h5>Strawberries</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs200/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Goose.webp" alt="">
+                <div class="des">
+                    <h5>Gooseberries</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs120/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Flower Varieties!!!</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="lilac.webp" alt="" height="350">
+                <div class="des">
+                    <h5>Lilac</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs200/bunch</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Rose1.jpg" alt="">
+                <div class="des">
+                    <h5>Hybrid Roses</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs200/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="daisy.jpg" alt="" height="350">
+                <div class="des">
+                    <h5>Daisy</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs500/kg</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="lavender.jpg" alt="" height="350">
+                <div class="des">
+                    <h5>Lavender</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs500/500gms</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get E-mail updates about Seasonal produts and New Varieties of Healthy Foods.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
